@@ -40,6 +40,7 @@ export function registerElements() {
     registerNativeElement('ActionItem', () => require('tns-core-modules/ui/action-bar').ActionItem);
     registerNativeElement('ActivityIndicator', () => require('tns-core-modules/ui/activity-indicator').ActivityIndicator);
     registerNativeElement('Border', () => require('tns-core-modules/ui/border').Border);
+    registerNativeElement('BottomNavigation', () => require('tns-core-modules/ui/bottom-navigation').BottomNavigation);
     registerNativeElement('Comment', () => require('tns-core-modules/ui/placeholder').Placeholder);
     registerNativeElement('Button', () => require('tns-core-modules/ui/button').Button);
     registerNativeElement('DatePicker', () => require('tns-core-modules/ui/date-picker').DatePicker);
@@ -57,6 +58,9 @@ export function registerElements() {
     registerNativeElement('StackLayout', () => require('tns-core-modules/ui/layouts/stack-layout').StackLayout);
     registerNativeElement('ScrollView', () => require('tns-core-modules/ui/scroll-view').ScrollView);
     registerNativeElement('Switch', () => require('tns-core-modules/ui/switch').Switch);
+    registerNativeElement('TabContentItem', () => require('tns-core-modules/ui/tab-content-item').TabContentItem);
+    registerNativeElement('TabStrip', () => require('tns-core-modules/ui/tab-strip').TabStrip);
+    registerNativeElement('TabStripItem', () => require('tns-core-modules/ui/tab-strip-item').TabStripItem);
     registerNativeElement('TabView', () => require('tns-core-modules/ui/tab-view').TabView);
     registerNativeElement('TabViewItem', () => require('tns-core-modules/ui/tab-view').TabViewItem);
     registerNativeElement('TextField', () => require('tns-core-modules/ui/text-field').TextField);
